@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-    TeamApi.fetchAll()
+    Api.fetchCompetitions()
 } )
