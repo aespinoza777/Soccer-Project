@@ -29,7 +29,7 @@ class Team {
                         <label for="name">Name</label>
                         <input type="text" name="name" class="name"/>
                         <label for="position">Position</label>
-                        <input type="text" name="position" class="position"/>   
+                        <input type="text" name="position" class="position"/> 
                         <label for="dateOfBirth">DOB</label>
                         <input type="date" name="dateOfBirth" class="dateOfBirth"/>
                         <label for="countryOfBirth">Birth Nation</label>

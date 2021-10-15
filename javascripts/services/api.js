@@ -21,6 +21,7 @@ class Api {
     }
 
     static fetchTeams(event) {
+        
         const id = event.target.dataset.id
         fetch(`http://api.football-data.org/v2/competitions/${id}/teams`, {
             "method": "GET",
@@ -41,6 +42,7 @@ class Api {
         }) 
 
     }
+
 
     static fetchPlayers(event) {
         const id = event.target.dataset.id
@@ -63,8 +65,5 @@ class Api {
         }) 
 
     }
-
-
-
 }
 
